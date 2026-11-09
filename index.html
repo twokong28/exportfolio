@@ -90,12 +90,12 @@
 
       <section class="contact-section" id="contact">
         <div class="contact-copy"><p class="eyebrow">Have a good idea?</p><h2>같이<br><em>만들어 볼까요?</em></h2><p>새로운 프로젝트, 협업 제안 또는 그냥 나누고 싶은 이야기가 있다면 편하게 연락 주세요.</p></div>
-        <form class="contact-form" id="contact-form">
+        <form class="contact-form" id="contact-form" novalidate>
           <label for="name">이름 <span>*</span></label><input id="name" name="name" type="text" placeholder="홍길동" required>
           <label for="email">이메일 <span>*</span></label><input id="email" name="email" type="email" placeholder="hello@example.com" required>
           <label for="message">메시지 <span>*</span></label><textarea id="message" name="message" rows="3" placeholder="프로젝트에 대해 알려주세요." required></textarea>
-          <button class="button button-primary" type="submit">메시지 보내기 <span>↗</span></button>
-          <p class="form-status" role="status" aria-live="polite"></p>
+          <button class="button button-primary" type="submit">입력 내용 확인 <span>↗</span></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
         </form>
       </section>
     </main>
